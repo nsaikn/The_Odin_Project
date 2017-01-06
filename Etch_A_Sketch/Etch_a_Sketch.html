@@ -1,0 +1,39 @@
+<!DOCUMENT html>
+
+<html>
+	<head>
+		<meta chartset="utf-8">
+		<!--Did not use the normalize stylesheet to reset the broswer differences-->
+		<!-- not sure if this line is required:
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+		</script>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body>
+		<header>
+			<h1>Etch A Sketch</h1>
+			<h4>By: Saikrishna Chalasani</h4>
+		</header>
+		<div class=container>
+			<!-- Options Heading --> 
+			<div class=options>
+				<div>
+					<form>
+						<p>Boxes on each side:</p>
+						<input id='number' type='number' name='Number' value='20'>
+					</form>
+				</div>
+				<div> 
+					<button id='new' type='button'>Change</button>
+					<button id='clear' type='button'>Clear</button>
+				</div>
+			</div>
+			<div id='grid'>
+			</div>
+		</div>
+		<script src="etchScript.js"></script>
+	</body>
+</html>
