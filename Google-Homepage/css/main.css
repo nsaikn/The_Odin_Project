@@ -1,0 +1,57 @@
+
+
+ul {
+	list-style: none;
+	padding: 0.5em 1em;
+	margin: 0 0 10em;
+	background-color: #111;
+	color: #888;
+}
+
+ul li{
+	font-size: 0.8em;
+	display:inline-block;
+	margin: 0 0.5em;
+}
+
+ul a:visited li{
+	color: #888;
+}
+
+ul a:hover li{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.google {
+	width: 17rem;
+	margin: 0 auto;
+}
+span{
+	display: inline; /* inline-block can only be centered with text align, margin auto will not cut it */
+	/*margin: 0 auto;*/
+	text-align:center;
+	font-size: 5rem;
+}
+
+.blue {
+	color: blue;
+}
+.red {
+	color: red;
+}
+.green {
+	color: green;
+}
+.yellow {
+	color: yellow;
+}
+
+form {
+	text-align: center;
+}
+
+input[type=text] {
+	width:30%;
+	margin:8px auto;
+	display: block;
+}
